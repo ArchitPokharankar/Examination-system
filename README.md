@@ -1,43 +1,42 @@
+# 📝 Examination System - Java Project
 
+The **Examination System** is a Java-based project designed to manage exams within an educational institution. It features student and teacher login, profile management, exam scheduling, and result entry functionalities.
 
----
+## 🚀 Features
 
-# Examination System
+- 🔐 **User Authentication**  
+  Secure login for students and teachers, with credentials verified against a **MySQL database**.
 
-The Examination System is a Java-based project for managing exams within an educational institution. It features student and teacher login, profile management, exam scheduling, and result entry functionalities.
+- 👨‍🎓 **Student Interface**  
+  View profile, exam schedule, and results.
 
-## Features
+- 👩‍🏫 **Teacher Interface**  
+  Manage profile, view/add exam schedules, and enter student results.
 
-- **User Authentication:** Secure login for students and teachers, with credentials verified against a MySQL database.
-  
-- **Student Interface:** View profile, exam schedule, and results.
-  
-- **Teacher Interface:** Manage profile, view/add exam schedules, and enter student results.
-  
-- **Development Environment:** IntelliJ IDE
+- 💻 **Development Environment**  
+  Developed using **IntelliJ IDEA**
 
-## Usage
+## ⚙️ Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dishanevgi1/examination-system.git
-   ```
-2. **Compile and run:**
-   ```bash
-   javac *.java
-   java Main
-   ```
+### 1. Clone the repository
 
-## Contributing
+```bash
+git clone https://github.com/ArchitPokharankar/examination-system.git
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature`)
-3. Make changes and commit them (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature`)
-5. Create a new Pull Request
+2. Compile and run
+javac *.java
+java Main
 
-## License
+🤝 Contributing
+Fork the repository
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Create a new branch
+git checkout -b feature
 
----
+Make changes and commit
+git commit -am "Add new feature"
+
+Push to your branch
+git push origin feature
+
+Create a Pull Request
